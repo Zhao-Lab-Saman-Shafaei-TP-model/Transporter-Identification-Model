@@ -1,5 +1,7 @@
 # TPsight: A Transporter Protein Identification Model 
 
+TPsight is a deep learning model that using <a href="https://github.com/agemagician/Ankh">Ankh</a>, a protein LLM, to predict if a protein is a transporter protein.
+
 This repository contains the embeddings and evaluation data using our model to predict if a protein sequence is that of a transporter protein or not.
 
 The exact way our model and dataset was collected can we found here: [link to paper].
