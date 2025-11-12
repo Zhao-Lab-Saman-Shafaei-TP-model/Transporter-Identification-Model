@@ -7,7 +7,7 @@ The exact way our model and dataset was collected can we found here: [link to pa
 
 ## About the datatset
 
-The dataset folder that contains both the testing and training data used is found here [link ORCID id]. Should be placed in the root directory as /dataset/. The datasets named final_testing.csv final_training.csv are contained here.
+The dataset folder that contains both the testing and training data used is found here [link ORCID id]. Should be placed in the root directory as /dataset/. The datasets named final_testing.csv and final_training.csv are contained here.
 
 ## Examples 
 
@@ -17,7 +17,7 @@ Two examples showing how to predict based on sequence are given the examples/ fo
 
 We using our model, BLAST and <a href="https://github.com/ying-jc/DeepTP">DeepTP</a>, we obtained the following metrics on the test dataset for predicting whether a protein is a transporter or not. 
 
-||Our Model| Blast|DeepTP |
+||Our Model| BLAST|DeepTP |
 |---|---|---|---|
 | Accuracy | 0.8871851457271136  | 0.8663343733353626|0.8110226475805453|
 | Precision | 0.8843166418773757| 0.8407241322039528|0.4581889407864999|
@@ -42,8 +42,6 @@ Confusion matrix
 
 ### Code 
 Model_evaluation.ipynb evaluates our model on our test dataset using our model.
-
-The dataset folder for testing is found here [link ORCID id]. Should be placed in the root directory as /dataset/. The final_testing.csv data is used in this code.
 
 ## Comparison to BLAST 
 
@@ -92,8 +90,6 @@ We use our training data, also in the dataset folder, to compared to another tra
 
 We use the the code using the code in BLAST_benchmarking/
 
-One simply needs to run the code in run_DeepTP.ipynb.
-
-The dataset folder for testing is found here [link ORCID id]. Should be placed in the root directory as /dataset/. The final_testing.csv data is used in this code.
+One simply needs to run the code in run_DeepTP.ipynb to obtain the results.
 
 
