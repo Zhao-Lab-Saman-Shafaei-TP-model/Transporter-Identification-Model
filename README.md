@@ -17,7 +17,7 @@ Two examples showing how to predict based on sequence are given the examples/ fo
 
 ## Summary of results 
 
-We using our model, BLAST and <a href="https://github.com/ying-jc/DeepTP">DeepTP</a>, we obtained the following metrics on the test dataset for predicting whether a protein is a transporter or not. 
+We using our model, [BLAST](https://blast.ncbi.nlm.nih.gov/Blast.cgi) and <a href="https://github.com/ying-jc/DeepTP">DeepTP</a>, we obtained the following metrics on the test dataset for predicting whether a protein is a transporter or not. 
 
 ||Our Model| BLAST|DeepTP |
 |---|---|---|---|
