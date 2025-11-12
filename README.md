@@ -1,4 +1,4 @@
-# Transporter Protein Identification Model in paper [put paper name]
+# TPsight: A Transporter Protein Identification Model 
 
 This repository contains the embeddings and evaluation data using our model to predict if a protein sequence is that of a transporter protein or not.
 
